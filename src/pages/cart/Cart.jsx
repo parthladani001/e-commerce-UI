@@ -1,7 +1,7 @@
 import { X } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { removeFromCart } from '../../features/cart/CartSlice';
+import { removeFromCart } from '../../features/cart/cartSlice';
 
 const Cart = () => {
   const dispatch = useDispatch();
